@@ -1,0 +1,22 @@
+[{   
+    "nama:"         : "Jordan",
+    "kelas:"        : "XII RPL 4",
+    "nis:"          : 3103120117,
+    "hobi:"         : ["Reading", "Playing"],
+    "mapelKesukaan" : {"eng": "Bahasa Inggris", "kk4b": "Pemrograman"},
+    "passion"       : ["programmer", "native englishmen"],
+    "setelahLulus"  :   "kuliah",
+    "noHp"          : 6289658087331,
+    "idola"         : ["Chelsea Cutler", "Jeremy Zucker"]
+},
+{
+    "nama"          :   "Meiwildan Muhammad Farrel",
+    "kelas"         :   "XII RPL 4",
+    "nis"           :   "3103120133",
+    "hobi"          :   ["main game", "menggambar"],
+    "mapelKesukaan" :   {"eng" : "bahasa inggris", "kk4b" : "pemrograman"},
+    "passion"       :   ["desainer", "editor video"],
+    "setelahLulus"  :   "kuliah",
+    "noHp"          :   "6281215662436",
+    "idola"         :   ["Ronaldo", "Nabi Muhammad"]
+}]
