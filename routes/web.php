@@ -16,3 +16,26 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('coba1', function(){
+    return ['rapli', 'jeje', 'juju'];
+});
+
+//JSON Objek
+Route::get('coba2', function(){
+    return [
+        'Nama' => 'Jordan Ang.',
+        'Kelas' => 'XII RPL 4',
+        'NIS' => 3103120117
+    ];
+});
+
+//Objek JSON, ubah status code
+Route::get('coba3', function(){
+    return response()->json( [
+        'Nama' => 'Jordan Ang.',
+        'Kelas' => 'XII RPL 4',
+        'NIS' => 3103120117
+    ], 201
+    );
+});
